@@ -76,12 +76,13 @@ push!(drefstr_vector, "## Data Reference\n")
 push!(drefstr_vector, "| Dataset | Reference |")
 push!(drefstr_vector, "| --- | --- |")
 for (ref_vector, data_name) in sort(data_vector, by = x -> x[2])
-    indstr_vector = map(x -> string(@sprintf "\\[%d\\]" doi_dict[x]), collect(ref_vector))
+    ind_vector = sort(map(x -> doi_dict[x], collect(ref_vector)))
+    indstr_vector = map(x -> string(@sprintf "\\[%d\\]" x), ind_vector)
 
     push!(drefstr_vector, @sprintf "| %s | %s |" data_name join(indstr_vector, ", "))
 end
 
-open("Reference.md","w") do io
+open("Reference.txt","w") do io
     println(io, join(drefstr_vector, '\n'))
     println(io, join(refstr_vector, '\n'))
 end

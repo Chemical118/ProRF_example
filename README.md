@@ -1,22 +1,26 @@
 # ProRF_example
 Example dataset for [`ProRF.jl`](https://github.com/Chemical118/ProRF.jl)
 
+## File description
+- `datapreprocess.jl` : Preprocess `DsReds`, `eqFP578s`, `CSs` datasets
+- `reference.jl` : Make `APA` style reference Markdowm table
+
 ## Dataset description
 
 | Dataset | Description | Reference |
 | --- | --- | --- |
 | AB[^2] | Amyloid beta nucleation score | \[87\]|
-| CSs | Citrate synthase heart activity | \[23\], \[5\], \[38\], \[111\] |
-| DsReds[^3] | Root DsRed fluorescent protein data | \[59\], \[89\], \[101\], \[51\], \[88\], \[10\], \[43\], \[65\], \[108\], \[99\], \[46\], \[100\], \[14\], \[97\], \[62\], \[109\], \[94\], \[96\], \[113\], \[98\] |
+| CSs | Citrate synthase heart activity | \[5\], \[23\], \[38\], \[111\] |
+| DsReds[^3] | Root DsRed fluorescent protein data | \[10\], \[14\], \[43\], \[46\], \[51\], \[59\], \[62\], \[65\], \[88\], \[89\], \[94\], \[96\], \[97\], \[98\], \[99\], \[100\], \[101\], \[108\], \[109\], \[113\] |
 | GB1[^1] | GB1 binding score to IgG | \[67\] |
 | GB1p | partial GB1 fitness | \[114\] |
-| Pab1[^1] | Pab1 Poly A binding score | \[82\], \[53\], \[1\] |
+| Pab1[^1] | Pab1 Poly A binding score | \[1\], \[53\], \[82\]  |
 | RBs | RuBisCO varient data | \[69\] |
 | TDP43[^2] | TDP-43 toxicity data | \[11\] |
 | Ube4b[^1] | Ubiquitin ligase activity | \[95\] |
 | avGFP[^1] | avGFP fluorescence | \[83\] |
-| avGFPs[^3] | Root avGFP fluorescent protein data | \[17\], \[18\], \[63\], \[35\], \[105\], \[54\], \[28\], \[39\], \[3\], \[119\], \[41\], \[116\], \[85\], \[106\], \[64\], \[40\], \[57\], \[24\], \[6\], \[112\], \[56\], \[20\], \[118\], \[29\], \[2\], \[77\], \[13\], \[81\], \[26\], \[68\], \[32\], \[33\], \[107\], \[22\], \[48\], \[44\], \[50\], \[120\], \[31\], \[30\], \[71\], \[117\], \[19\], \[21\], \[86\], \[12\], \[36\], \[37\], \[25\], \[80\], \[84\], \[52\], \[4\], \[70\], \[9\], \[78\] |
-| eqFP578s[^3] | Root eqFP578 fluorescent protein data | \[76\], \[110\], \[58\], \[89\], \[74\], \[42\], \[105\], \[115\], \[47\], \[73\], \[55\], \[90\], \[61\], \[46\], \[15\], \[34\], \[92\], \[104\], \[60\], \[75\], \[7\], \[45\], \[49\], \[72\], \[102\], \[103\], \[79\], \[27\], \[93\], \[91\], \[8\], \[16\] |
+| avGFPs[^3] | Root avGFP fluorescent protein data | \[2\], \[3\], \[4\], \[6\], \[9\], \[12\], \[13\], \[17\], \[18\], \[19\], \[20\], \[21\], \[22\], \[24\], \[25\], \[26\], \[28\], \[29\], \[30\], \[31\], \[32\], \[33\], \[35\], \[36\], \[37\], \[39\], \[40\], \[41\], \[44\], \[48\], \[50\], \[52\], \[54\], \[56\], \[57\], \[63\], \[64\], \[68\], \[70\], \[71\], \[77\], \[78\], \[80\], \[81\], \[84\], \[85\], \[86\], \[105\], \[106\], \[107\], \[112\], \[116\], \[117\], \[118\], \[119\], \[120\] |
+| eqFP578s[^3] | Root eqFP578 fluorescent protein data | \[7\], \[8\], \[15\], \[16\], \[27\], \[34\], \[42\], \[45\], \[46\], \[47\], \[49\], \[55\], \[58\], \[60\], \[61\], \[72\], \[73\], \[74\], \[75\], \[76\], \[79\], \[89\], \[90\], \[91\], \[92\], \[93\], \[102\], \[103\], \[104\], \[105\], \[110\], \[115\] |
 | gGB1[^2] | GB1 gibbs free energy of folding | \[66\] |
 
 [^1]: Gelman, S., Fahlberg, S. A., Heinzelman, P., Romero, P. A., & Gitter, A. (2021, November 23). Neural networks to learn protein sequence–function relationships from deep mutational scanning data. _Proceedings of the National Academy of Sciences_. Proceedings of the National Academy of Sciences. <https://doi.org/10.1073/pnas.2104878118>
