@@ -2,7 +2,7 @@
 
 | Dataset | Reference |
 | --- | --- |
-| AB | \[87\] [^1] |
+| AB | \[87\]|
 | CSs | \[23\], \[5\], \[38\], \[111\] |
 | DsReds | \[59\], \[89\], \[101\], \[51\], \[88\], \[10\], \[43\], \[65\], \[108\], \[99\], \[46\], \[100\], \[14\], \[97\], \[62\], \[109\], \[94\], \[96\], \[113\], \[98\] |
 | GB1 | \[67\] |
@@ -18,7 +18,7 @@
 
 ## Reference
 
-\[[^1]\] : Adam, S. A., Nakagawa, T., Swanson, M. S., Woodruff, T. K., & Dreyfuss, G. (1986, August). mRNA polyadenylate-binding protein: gene isolation and sequencing and identification of a ribonucleoprotein consensus sequence. _Molecular and Cellular Biology_. American Society for Microbiology. [https://doi.org/10.1128/mcb.6.8.2932-2943.1986](https://doi.org/10.1128/mcb.6.8.2932-2943.1986)
+\[1\] : Adam, S. A., Nakagawa, T., Swanson, M. S., Woodruff, T. K., & Dreyfuss, G. (1986, August). mRNA polyadenylate-binding protein: gene isolation and sequencing and identification of a ribonucleoprotein consensus sequence. _Molecular and Cellular Biology_. American Society for Microbiology. [https://doi.org/10.1128/mcb.6.8.2932-2943.1986](https://doi.org/10.1128/mcb.6.8.2932-2943.1986)
 
 \[2\] : Ai, H., Hazelwood, K. L., Davidson, M. W., & Campbell, R. E. (2008, April 20). Fluorescent protein FRET pairs for ratiometric imaging of dual biosensors. _Nature Methods_. Springer Science and Business Media LLC. [https://doi.org/10.1038/nmeth.1207](https://doi.org/10.1038/nmeth.1207)
 
