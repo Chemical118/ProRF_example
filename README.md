@@ -13,7 +13,7 @@ Example dataset for [`ProRF.jl`](https://github.com/Chemical118/ProRF.jl)
 | CSs | Citrate synthase heart activity | X | \[5\], \[23\], \[38\], \[111\] |
 | DsReds[^3] | Root DsRed fluorescent protein data | X | \[10\], \[14\], \[43\], \[46\], \[51\], \[59\], \[62\], \[65\], \[88\], \[89\], \[94\], \[96\], \[97\], \[98\], \[99\], \[100\], \[101\], \[108\], \[109\], \[113\] |
 | GB1[^1] | GB1 binding score to IgG | 1 | \[67\] |
-| GB1p | partial GB1 fitness | 39, 40, 41, 54 (Total AA Index) | \[114\] |
+| GB1p | partial GB1 GB1 binding score to IgG | 39, 40, 41, 54 (Total AA Index) | \[114\] |
 | Pab1[^1] | Pab1 Poly A binding score | 126 | \[1\], \[53\], \[82\]  |
 | RBs | RuBisCO varient data | X | \[69\] |
 | TDP43[^2] | TDP-43 toxicity data | 290 | \[11\] |
