@@ -3,7 +3,7 @@ using XLSX, DataFrames, Printf, PyCall, Conda
 loc_vector = filter(x -> split(x, "\\")[end] == "data.xlsx", reduce(vcat, map(x -> (x[1] * "\\") .* x[3], collect(walkdir(pwd() * "\\Data")))))
 data_vector = Vector{Tuple{Vector{String}, String}}()
 for eloc in loc_vector
-    push!(data_vector, (lowercase.(collect(Set(Vector{String}(filter(x -> !ismissing(x), DataFrame(XLSX.readtable(eloc, "Sheet1", infer_eltypes=true)...)[!, :Reference]))))), split(eloc, "\\")[end-1]))
+    push!(data_vector, (lowercase.(collect(Set(Vector{String}(filter(x -> !ismissing(x), DataFrame(XLSX.readtable(eloc, "Sheet1", infer_eltypes=true))[!, :Reference]))))), split(eloc, "\\")[end-1]))
 end
 
 println(length(data_vector))
